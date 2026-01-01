@@ -80,7 +80,7 @@ jobs:
       - name: deploy to Prod
         run: |
           databricks bundle deploy \
-            --target prod \ 
+            --target prod \
             --profile PROD
 
   
