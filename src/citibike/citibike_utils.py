@@ -6,7 +6,7 @@ def get_trip_duration_mins(spark, df, start_col, end_col, output_col):
     Adds a column to the DataFrame calculating the difference in minutes between two timestamp columns.
 
     Parameters:
-      spark: Spark Session.
+      spark: Spark Session needed for the function.
       df: Spark DataFrame.
       start_col (str): Name of the column with the start timestamp.
       end_col (str): Name of the column with the end timestamp.
